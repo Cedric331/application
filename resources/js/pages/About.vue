@@ -6,7 +6,7 @@
                     <div class="card-header">Example Component</div>
 
                     <div class="card-body">
-                       About
+                       Aboute
                     </div>
                 </div>
             </div>
