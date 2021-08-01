@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router'
 
-import Home from './pages/Home.vue'
-import About from './pages/About.vue'
+import Connexion from './pages/user/Connexion.vue'
+import Inscription from './pages/user/Inscription.vue'
 
 Vue.use(VueRouter);
 
@@ -12,13 +12,13 @@ const router = new VueRouter({
     routes: [
         {
             path: '/',
-            name: 'home',
-            component: Home
+            name: 'connexion',
+            component: Connexion
         },
         {
             path: '/',
-            name: 'about',
-            component: About
+            name: 'inscription',
+            component: Inscription
         },
     ]
 })
